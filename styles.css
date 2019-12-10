@@ -28,6 +28,23 @@ h1{
 .dog-image{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+@media (max-width: 1028px) {
+    h1{
+        font-size: 3rem;
+    }
+    #title{
+        text-align: center;
+    }
+    .dog-image{
+        width: 50%;
+        transform: rotate(0);
+        position: static;
+    }
+
 }
 
 .navbar{
@@ -68,6 +85,8 @@ p{
 }
 
 #features{
+    position: relative;
+    background-color: white;
     padding: 7% 13%;
     text-align: center;
 }
@@ -116,4 +135,26 @@ h2{
 
 .pricing-title{
     margin: 5%;
+}
+
+/* cta */
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    font-family: 'Montserrat-black', sans-serif;
+    color: white;
+    padding:2%;
+}
+
+.small-download-button{
+    margin: 1% 1%;
+}
+
+/* footer */
+footer{
+    text-align: center;
+}
+
+.icon{
+    margin: 1%;
 }
